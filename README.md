@@ -7,7 +7,7 @@ A browser game where you are the goalkeeper. An attacker runs in from a real sho
 ## How to play
 
 1. Press **Play**.
-2. An attacker runs at you from a spot where a real player once took a shot. A countdown runs while they approach: **1 second** if they are close to goal, up to **3 seconds** if they are far out.
+2. An attacker runs at you from a spot where a real player once took a shot. A countdown runs while they approach: **1.5 second** if they are close to goal, up to **3 seconds** if they are far out.
 3. Tap or click one of the **nine zones** of the goal (3×3 grid) to choose where to dive. You can change your mind until the countdown ends.
 4. The attacker shoots to the zone the real player hit.
    - **Same zone → save.** You score points.
