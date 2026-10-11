@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Last Line — Goalkeeper Simulator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="description" content="You are the goalkeeper. Read where the attacker is shooting from and dive. Every shot is a real on-target shot from professional football.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="theme-color" content="#101020">
+
+  <!-- Pixel font (the only external resource). The game falls back to monospace if it is blocked. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="stage">
+    <canvas id="game" width="480" height="270" aria-label="Last Line goalkeeper game">
+      Your browser does not support the canvas element.
+    </canvas>
+  </main>
+
+  <!-- Loading / error messages (plain HTML so they show even if the canvas fails) -->
+  <div id="overlay" role="status">
+    <p class="overlay-title">Loading…</p>
+  </div>
+
+  <!-- Shown only on narrow portrait screens (see style.css) -->
+  <div id="rotate-hint" aria-hidden="true">Rotate for a bigger view</div>
+
+  <!-- Hidden text credit, for screen readers and search engines -->
+  <p id="credit">Shot data: StatsBomb Open Data.</p>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
