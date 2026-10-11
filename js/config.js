@@ -96,7 +96,7 @@ export const GOAL_IMAGE = {
 
 // Placeholder goal look (used only when goal.png is missing).
 export const GOAL_PLACEHOLDER = {
-  postWidth: 5,       // thickness of posts and crossbar
+  postWidth: 18,       // thickness of posts and crossbar
   netDepth: 22,       // how far the back of the net is drawn "behind" the mouth
   netSpacing: 8,      // spacing of the net mesh lines
   netAlpha: 0.35,     // transparency of the net
@@ -232,10 +232,10 @@ export const COLORS = {
   post: '#f4f4f4',
   postShade: '#bdbdbd',
   net: '#ffffff',
-  gridLine: 'rgba(255,255,255,0.5)',
+  gridLine: 'rgba(255,255,255,0.4)',
   gridFill: 'rgba(255,255,255,0.05)',
-  gridHover: 'rgba(255,255,255,0.22)',
-  gridSelected: 'rgba(255,230,80,0.45)',
+  gridHover: 'rgba(255,255,255,0.16)',
+  gridSelected: 'rgba(255,230,80,0.35)',
   gridSelectedLine: '#ffe650',
   gridNumber: 'rgba(255,255,255,0.45)',
   hudText: '#ffffff',
