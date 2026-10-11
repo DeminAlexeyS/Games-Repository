@@ -132,7 +132,7 @@ export const TIMING = {
 //  Rules and scoring
 // ---------------------------------------------------------------------------
 export const RULES = {
-  lives: 3,                // lives at the start of a game
+  lives: 5,                // lives at the start of a game
   defaultCell: { col: 1, row: 2 },  // cell counted when the player makes no choice (bottom-centre)
 };
 
@@ -273,7 +273,7 @@ export const COLORS = {
   keeperHair: '#1f140c',
   // heatmap
   heatLow: [30, 40, 70],       // RGB of an empty heatmap cell
-  heatHigh: [130, 170, 40],    // RGB of the busiest heatmap cell
+  heatHigh: [170, 160, 40],    // RGB of the busiest heatmap cell
   heatGrid: '#dde3f5',
 };
 
