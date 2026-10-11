@@ -111,8 +111,8 @@ export const GRID_HIT_MARGIN = 14;
 // ---------------------------------------------------------------------------
 export const TIMING = {
   setup: 0.5,            // pause at the start of a round while the attacker appears
-  countdownMin: 3.0,     // countdown for close shots
-  countdownMax: 5.0,     // countdown for long-range shots
+  countdownMin: 2.0,     // countdown for close shots
+  countdownMax: 4.0,     // countdown for long-range shots
   distanceNear: 12,      // d ≤ this → countdownMin
   distanceFar: 30,       // d ≥ this → countdownMax (linear in between)
   warning: 1.0,          // the countdown turns red with this many seconds left
