@@ -96,10 +96,10 @@ export const GOAL_IMAGE = {
 
 // Placeholder goal look (used only when goal.png is missing).
 export const GOAL_PLACEHOLDER = {
-  postWidth: 18,       // thickness of posts and crossbar
-  netDepth: 22,       // how far the back of the net is drawn "behind" the mouth
+  postWidth: 10,       // thickness of posts and crossbar
+  netDepth: 18,       // how far the back of the net is drawn "behind" the mouth
   netSpacing: 8,      // spacing of the net mesh lines
-  netAlpha: 0.35,     // transparency of the net
+  netAlpha: 0.20,     // transparency of the net
 };
 
 // Taps/clicks this many logical pixels OUTSIDE the goal mouth still pick the
