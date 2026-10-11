@@ -273,7 +273,7 @@ export const COLORS = {
   keeperHair: '#1f140c',
   // heatmap
   heatLow: [30, 40, 70],       // RGB of an empty heatmap cell
-  heatHigh: [170, 160, 40],    // RGB of the busiest heatmap cell
+  heatHigh: [220, 120, 150],    // RGB of the busiest heatmap cell
   heatGrid: '#dde3f5',
 };
 
