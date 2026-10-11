@@ -85,12 +85,12 @@ export const PROJECTION = {
 //   Tip: set DEBUG.showGoalMouth = true to see the rectangle drawn on screen
 //   while you line it up.
 // ---------------------------------------------------------------------------
-export const GOAL_MOUTH = { x: 144, y: 96, w: 192, h: 96 };
+export const GOAL_MOUTH = { x: 114, y: 81, w: 252, h: 126 };
 
 // Where goal.png is drawn (ignored when the placeholder goal is used).
 export const GOAL_IMAGE = {
-  x: 134,     // top-left x of the image on screen
-  y: 84,      // top-left y of the image on screen
+  x: 104,     // top-left x of the image on screen
+  y: 69,      // top-left y of the image on screen
   scale: 1,   // image scale (1 = one image pixel per logical pixel)
 };
 
