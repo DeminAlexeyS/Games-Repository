@@ -111,7 +111,7 @@ export const GRID_HIT_MARGIN = 14;
 // ---------------------------------------------------------------------------
 export const TIMING = {
   setup: 0.5,            // pause at the start of a round while the attacker appears
-  countdownMin: 1.0,     // countdown for close shots
+  countdownMin: 1.5,     // countdown for close shots
   countdownMax: 3.0,     // countdown for long-range shots
   distanceNear: 12,      // d ≤ this → countdownMin
   distanceFar: 30,       // d ≥ this → countdownMax (linear in between)
@@ -273,7 +273,7 @@ export const COLORS = {
   keeperHair: '#1f140c',
   // heatmap
   heatLow: [30, 40, 70],       // RGB of an empty heatmap cell
-  heatHigh: [230, 120, 40],    // RGB of the busiest heatmap cell
+  heatHigh: [130, 170, 40],    // RGB of the busiest heatmap cell
   heatGrid: '#dde3f5',
 };
 
