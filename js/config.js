@@ -57,7 +57,7 @@ export const PROJECTION = {
   F: 20,            // "focal length": smaller = stronger perspective, things shrink faster
   K: 8,             // horizontal pixels per pitch unit at the goal line. Smaller = narrower view
   horizonY: 60,     // screen y of the horizon (very far away)
-  goalLineY: 196,   // screen y of the goal line (depth 0)
+  goalLineY: 222,   // screen y of the goal line (depth 0)
   centreX: 240,     // screen x of the pitch centre line
   edgeMargin: 14,   // the attacker is kept at least this far inside the screen edge
                     // (only matters for the handful of shots taken from the corner flag)
